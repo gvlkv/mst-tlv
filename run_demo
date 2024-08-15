@@ -1,0 +1,7 @@
+!#/bin/bash
+
+for i in demo-in/*; do
+    echo === $i [[[
+    ./mst-tlv $i
+    echo === ]]]
+done
